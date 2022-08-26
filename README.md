@@ -84,11 +84,6 @@ We will be creating a **Landing page** which will *distribute our audience* and 
 
 - *Speech synthesis* for narrating the content present throughout the website.
 
-### **3. Speech impaired/Hearing Impaired :**
-
-- *Sign language keyboard* for sending and receiving messages [WIP}
-- *Sign language instruction / illustration* helping in traversal of the Website.
-- *Communication with Government Officials.* 
 
 ### **4. Prediction Model :**
 - *AI Chatbot based on NLP *Dialogflow*.
