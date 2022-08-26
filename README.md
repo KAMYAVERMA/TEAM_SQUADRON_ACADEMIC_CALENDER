@@ -20,7 +20,7 @@
 
 ## Predicts colleges based on students holistic details and preferences, helps students to gather information about the colleges which saves time and money wasted in travel
 
-[<img align="left" alt="landing_page.jpeg" width="50%" height="500px" src="landing_page.jpeg" />][website]
+[<img align="left" alt="landing_page.jpeg" width="70%" height="300px" src="landing_page.jpeg" />][website]
 
 
 
