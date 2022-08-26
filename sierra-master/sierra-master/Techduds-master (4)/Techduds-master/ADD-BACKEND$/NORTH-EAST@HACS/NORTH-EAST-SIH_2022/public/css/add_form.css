@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lobster+Two:ital@1&family=Lora:ital@1&family=Martel:wght@600&family=Playfair+Display:ital@1&family=Quintessential&family=Raleway:ital,wght@1,500&family=Redressed&family=Sansita+Swashed&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel', serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg');
+    background-size: cover;
+    padding: 10px;
+}
+
+.container{
+    width: 750px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 30px;
+    height: 85vh;
+    padding-left: 50px;
+    box-shadow: 15px black;
+}
+
+.container .title{
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+    font-style: bold;
+    font-size: 30px;
+    
+    
+}
+#image{
+    width: 300px;
+    border-color: black;
+}
+
+.container form .event-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form .event-details .input-box{
+    width: calc(100% /2 - 20px);
+    margin-bottom: 15px;
+}
+
+
+.event-details .input-box input{
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    box-shadow: black;
+    outline: black;
+    border: 3px solid black;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+
+
+.event-details .input-box details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.event-details .input-box input:focus,.event-details .input-box input:valid{
+    border-color: black;
+}
+
+form .region-details .region-title{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+form .region-details .category{
+    display: flex;
+    width: 130%;
+    padding: 10px 0 12px 0;
+    justify-content: space-between;
+}
+
+.region-details .category label{
+    display: flex;
+    align-items: center;
+}
+
+.region-details .category .check{
+    
+    background: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 5px solid transparent;
+}
+
+form .submit_button_add{
+    height: 90px;
+    
+    
+}
+
+form .submit_button_add input{
+    width: 200px;
+    outline: none;
+    height: 30px;
+    background:slategray;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+form .submit_button_add input:hover{
+    background:linear-gradient(135deg,orange,white,green);
+    cursor: pointer;
+    color: black;
+}
+
+/* @media(max-width:584px){
+    .container{
+        max-width: 100%;
+    }
+    form .event-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;}
+
+    form .region-details .category{
+        width:100%;} */
+
+@media(max-width:400px){
+    .container{
+        width:400px;
+        height: 90vh;
+    }
+    .container .title{
+        font-size: 15px;
+        padding-right: 5px;
+        font-style: bold;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 60px;
+
+    }
+    .container #image{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .event-details .input-box{
+        width: calc(100% /2 - 70px);
+    }
+
+    .event-details .input-box #name,#previous_date_1,#new_date_1,#description_1{
+        font-size: 11px;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .event-details .input-box #details_1,#prev,#new_date,#des{
+        width: 100px;
+    }
+
+    .region-details .region-title{
+        font-size: 11px;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    .region-details .category #north,#south,#east,#west {
+        font-size: 11px;
+        font-family: 'Ubuntu',sans-serif;
+        
+    }
+    .region-details .category #region_1{
+        width: 10px;
+        height: 10px;
+    }
+
+.container form .event-details{
+    max-width: 300px;
+    overflow-y: scroll;}
+
+.event-details::-webkit-scrollbar{
+    width: 0;
+}}
+
+@media(width:820px){
+    .container{
+        height: 60vh;
+    }
+}
+@media(width:768px){
+    .container{
+        height: 62vh;
+    }
+}
+
+@media(width:1024px){
+    .container{
+        width: 650px;
+        height: 100vh;
+    }
+    .submit_button{
+        margin-top: 0px;
+    }
+    .input-box_1{
+        margin-top: 6px;
+        padding-right: 500px;
+    }
+}
+
+
+
+form .event-details .input-box_1{
+    width: calc(100% /2 - 20px);
+    margin-bottom: 20px;
+    padding-left: 120px;
+
+}
+
+.event-details .input-box_1 input{
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    box-shadow: black;
+    outline: black;
+    border: 3px solid black;
+    padding-left: 45px;
+    transition: all 0.3s ease;
+}

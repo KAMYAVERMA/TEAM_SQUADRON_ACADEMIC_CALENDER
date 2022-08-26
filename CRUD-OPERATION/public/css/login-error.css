@@ -1,0 +1,17 @@
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/157/645/original/indian-flag-theme-republic-day-watercolor-texture-patriotic-background-free-vector.jpg');
+    background-position: cover;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 50px;
+
+}
+
+#link-to-go-back{
+    color: black;
+    font-size: 25px;
+    font-style: bold;
+    
+}

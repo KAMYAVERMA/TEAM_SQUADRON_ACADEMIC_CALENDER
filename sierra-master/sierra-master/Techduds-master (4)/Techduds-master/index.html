@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Integrated Academic Calendar</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!--JS File-->
+    <script src="mapdata.js"></script>
+    <script src="countrymap.js"></script>
+
+</head>
+
+<body>
+   
+
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:helpdesk1@aicte-india.org">helpdesk1@aicte-india.org</a></i>
+                <i class="bi bi-phone d-flex align-items-center ms-4"><span>Phone: 011-26131576-78,80</span></i>
+            </div>
+            <div class="social-links d-none d-md-flex align-items-center">
+                <a href="https://twitter.com/AICTE_INDIA" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/OfficialAICTE/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/explore/tags/aicte/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/aicteindia/?originalSubdomain=in" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <script>
+        window.addEventListener('mouseover', initLandbot, {
+            once: true
+        });
+        window.addEventListener('touchstart', initLandbot, {
+            once: true
+        });
+        var myLandbot;
+
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.addEventListener('load', function() {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'https://chats.landbot.io/v3/H-1192459-NVDSHXADB6U17G78/index.json',
+                    });
+                });
+                s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between">
+
+            <div class="logo">
+                <h1 class="text-light"><a href="index.html">HACS</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Newsroom</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="C:\Users\manas\OneDrive\Desktop\Remember\weekly-coding-challenge-1double-slider-sign-in-up-formdesktop-only\dist\login.html">Login</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./images/slider-1.png" style="width:100%">
+          <div class="text">Welcome to HACS</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./images/slider-2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./images/slider-3.jpeg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+ 
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
+                        <a href="C:\Users\manas\Downloads\Techduds-master (4)\Techduds-master\assets\img\HACS.mp4" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" video-autoplay="true"></a>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                        <div class="box-heading" data-aos="fade-up">
+                            <h4>About us</h4>
+                            <h3>Our team constantly strives so you don't miss any updates from your desired universities!</h3>
+                            <h4>Our Services!</h4>
+                        </div>
+
+                        <div class="icon-box" data-aos="fade-up">
+                            <div class="icon"><i class="bx bx-calendar"></i></div>
+                            <h4 class="title"><a href="Page_1.html"> INTEGRATED UNIVERSITY CALENDAR</a></h4>
+                            <p class="description">HACS'S has developed a fully integrated academic calendar for all universities keeping in mind all climatic, religious and socio-economic factors.</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="bx bxs-graduation"></i></div>
+                            <h4 class="title"><a href="./predfinal/indexpred.html">UNIVERSITY RECOMMENDATION SYSTEM</a></h4>
+                            <p class="description">Prediction Model: HACS provides the user with a prediction model to let the user know in which universities and autonomous colleges the user is eligible for by analyzing her/his academic performance and other details using
+                                AI and ML models.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Why Us</h2>
+                    <h3>Why you shoud <span>choose us</span>?</h3>
+                    <p>One stop destination to search about their dream college, academic calendar, study material for college entrances and lots more interactive tools to simplify the process of admission for students.</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Why Us Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row counters">
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Visits</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="1470" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Universities</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Hours Of Support</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Members</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Counts Section -->
+
+
+
+
+
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Team</h2>
+                    <h3>Our Hard Working <span>Team</span></h3>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up">
+                            <div class="member-img">
+                                <img src="assets/img/team/Manas.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>MANAS GOEL</h4>
+                                <span>Team Leader, Team_Squadron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up">
+                            <div class="member-img">
+                                <img src="assets/img/team/Kamya.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>KAMYA VERMA</h4>
+                                <span>Team Member, Team_Squadron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="member-img">
+                                <img src="assets/img/team/Govind Ag.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>GOVIND AGARWAL</h4>
+                                <span>Team Member, Team_Squadron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="200">
+                            <div class="member-img">
+                                <img src="assets/img/team/Manaswini.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>MANASWINI VOOLAPALLI</h4>
+                                <span>Team Member, Team_Squadron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="300">
+                            <div class="member-img">
+                                <img src="assets/img/team/Govind Shukla.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>GOVIND SHUKLA</h4>
+                                <span>Team Member, Team_Squadron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up">
+                            <div class="member-img">
+                                <img src="assets/img/team/Ritika.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>RITIKA GARG</h4>
+                                <span>Team Member, Team_Squadron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Team Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                <h3>Lyndon B. Johnson</h3>
+                                <h4>Former President of the United States of America</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> “If future generations are to remember us more with gratitude than sorrow, we must achieve more than just the miracles of technology. We must also leave them a glimpse
+                                    of the world as it was created, not just as it looked when we got through with it.”
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                <h3>Bill Gate</h3>
+                                <h4>Co-founder of Microsoft</h4>
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> “The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.”
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <h3>Prabakaran Thirumalai</h3>
+
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> : Hard work is a prison sentence only if it does not have meaning. Once it does, it becomes the kind of thing that makes you grab your wife around the waist and
+                                    dance a jig.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                <h3>Lou Holtz </h3>
+
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Work and you’ll get what you need; work harder and you’ll get what you want.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <h3>Malcolm Gladwell </h3>
+
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Winners embrace hard work. They love the discipline of it, the trade-off they’re making to win. Losers, on the other hand, see it as punishment. And that’s the difference.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+
+
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="faq" class="faq">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>F.A.Q</h2>
+                    <h3>Frequently Asked <span>Questions</span></h3>
+                    <p>Know the various questions that are asked by your peers on a frequent basis for better knowing and understanding.</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Why has the University examining the Academic Calendar? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    The Academic Calendar plays a role in shaping our learning experiences for students. We are examining the calendar to ensure that the timing of quarters and breaks most effectively enhances student learning, decreases stress, and facilitates job and fellowship
+                                    recruitment. We want to ensure that the calendar serves the changing demographics of our student body, including, for example, both domestic and international students who may find it difficult to travel home for holidays
+                                    and other breaks. The Faculty Senate endorsed several changes to the calendar and the President and Provost have approved three changes (see below).The Academic Calendar Advisory Group met throughout 2018-2019 in order
+                                    to advise the Provost and the University Registrar as the Registrar implements these changes.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How long are quarters currently?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Currently, Fall quarter is ten weeks and two days, excluding exams, and Winter and Spring quarters are nine weeks and three or four days, excluding exams. Federal regulations require a minimum of 30 weeks in session during the academic year, which can
+                                    include instruction and evaluation periods
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How long is the summer break and why? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Summer break is three months long. Many research grants require that faculty are available for research or other activities for the full three months.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Will the flexible exam arrangements apply to undergraduate courses only, or to graduate courses as well? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Exam flexibility is primarily intended for undergraduate students at this time; however, graduate programs and their students may choose to make use of flexibility options in the future and in special circumstances
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What flexible final examination arrangements are being considered and why? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Proposals for final exam flexibility include early in-person exams, online monitored or proctored exams, and remote proctored exams.A coordinated and centrally administered process for declaring exam flexibility options, as well as systems to manage requests
+                                    and to proctor exams, would remove the burden of logistics from the faculty and students who opt to use them.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <!-- End F.A.Q Section -->
+
+        <!-- ======= Contact Section ======= -->
+        
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+
+            <div class="container">
+
+                <div class="row  justify-content-center">
+                    <div class="col-lg-6">
+                        <h3>HACS</h3>
+                        <p>Register your email with us to get regular updates!</p>
+                    </div>
+                </div>
+
+                <div class="row footer-newsletter justify-content-center">
+                    <div class="col-lg-6">
+                        <form action="" method="post">
+                            <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://twitter.com/AICTE_INDIA" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/OfficialAICTE/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/explore/tags/aicte/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="helpdesk1@aicte-india.org
+                    " class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="https://www.linkedin.com/company/aicteindia/?originalSubdomain=in" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright" align-items-center>
+                &copy; Copyright <strong><span>HACS</span></strong>. All Rights Reserved
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

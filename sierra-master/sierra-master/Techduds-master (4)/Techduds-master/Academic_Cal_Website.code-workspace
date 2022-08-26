@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "Remember",
+			"path": "."
+		},
+		{
+			"name": "SIGN IN BACKEND",
+			"path": "..\\SIGN IN BACKEND"
+		},
+		{
+			"name": "html5countrymapv4.1",
+			"path": "..\\html5countrymapv4.1"
+		},
+		{
+			"name": "Calendar Events",
+			"path": "..\\Calendar Events"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Calendar Events"
+	}
+}

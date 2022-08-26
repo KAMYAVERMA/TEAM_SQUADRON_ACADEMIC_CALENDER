@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Integrated Academic Calendar</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script src="mapdata.js"></script>
+    <script src="countrymap.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:helpdesk1@aicte-india.org">helpdesk1@aicte-india.org</a></i>
+                <i class="bi bi-phone d-flex align-items-center ms-4"><span>Phone: 011-26131576-78,80</span></i>
+            </div>
+            <div class="social-links d-none d-md-flex align-items-center">
+                <a href="https://twitter.com/AICTE_INDIA" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/OfficialAICTE/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/explore/tags/aicte/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/aicteindia/?originalSubdomain=in" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+        </div>
+    </section>
+    <script>
+        window.addEventListener('mouseover', initLandbot, {
+            once: true
+        });
+        window.addEventListener('touchstart', initLandbot, {
+            once: true
+        });
+        var myLandbot;
+
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.addEventListener('load', function() {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'https://chats.landbot.io/v3/H-1192459-NVDSHXADB6U17G78/index.json',
+                    });
+                });
+                s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between">
+
+            <div class="logo">
+                <h1 class="text-light"><a href="index.html">HACS</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Newsroom</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="C:\Users\manas\OneDrive\Desktop\Remember\weekly-coding-challenge-1double-slider-sign-in-up-formdesktop-only\dist\login.html">Login</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <!--section id="hero">
+        <div class="hero-container" data-aos="fade-up">
+            <h1>CALENDAR ZONE</h1>
+            <h2>Holistic Academic Calendar Solutions by AICTE</h2>
+            <a href="#faq" class="btn-get-started scrollto">Access The Map</a>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="faq" class="faq">
+            <div id="map"class="container"></div>
+
+               
+
+                   
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="faq" class="faq">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>F.A.Q</h2>
+                    <h3>Frequently Asked <span>Questions</span></h3>
+                    <p>Know the various questions that are asked by your peers on a frequent basis for better knowing and understanding.</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Why has the University examining the Academic Calendar? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    The Academic Calendar plays a role in shaping our learning experiences for students. We are examining the calendar to ensure that the timing of quarters and breaks most effectively enhances student learning, decreases stress, and facilitates job and fellowship
+                                    recruitment. We want to ensure that the calendar serves the changing demographics of our student body, including, for example, both domestic and international students who may find it difficult to travel home for holidays
+                                    and other breaks. The Faculty Senate endorsed several changes to the calendar and the President and Provost have approved three changes (see below).The Academic Calendar Advisory Group met throughout 2018-2019 in order
+                                    to advise the Provost and the University Registrar as the Registrar implements these changes.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How long are quarters currently?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Currently, Fall quarter is ten weeks and two days, excluding exams, and Winter and Spring quarters are nine weeks and three or four days, excluding exams. Federal regulations require a minimum of 30 weeks in session during the academic year, which can
+                                    include instruction and evaluation periods
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How long is the summer break and why? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Summer break is three months long. Many research grants require that faculty are available for research or other activities for the full three months.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Will the flexible exam arrangements apply to undergraduate courses only, or to graduate courses as well? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Exam flexibility is primarily intended for undergraduate students at this time; however, graduate programs and their students may choose to make use of flexibility options in the future and in special circumstances
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What flexible final examination arrangements are being considered and why? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Proposals for final exam flexibility include early in-person exams, online monitored or proctored exams, and remote proctored exams.A coordinated and centrally administered process for declaring exam flexibility options, as well as systems to manage requests
+                                    and to proctor exams, would remove the burden of logistics from the faculty and students who opt to use them.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <!-- End F.A.Q Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Contact</h2>
+                    <h3>Check our <span>Contact</span> Details</h3>
+
+                </div>
+
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1000&amp;height=400&amp;hl=en&amp;q=JSS NOIDA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+                    </div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 600px;
+                            height: 400px;
+                        }
+                        
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none!important;
+                            width: 600px;
+                            height: 400px;
+                        }
+                        
+                        .gmap_iframe {
+                            width: 600px!important;
+                            height: 400px!important;
+                        }
+                    </style>
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>JSS ACADEMY OF TECHNICAL EDUCATION NOIDA</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>helpdesk1@aicte-india.org
+                                </p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 5589 55488 55s</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+
+            <div class="container">
+
+                <div class="row  justify-content-center">
+                    <div class="col-lg-6">
+                        <h3>HACS</h3>
+                        <p>Register your email with us to get regular updates!</p>
+                    </div>
+                </div>
+
+                <div class="row footer-newsletter justify-content-center">
+                    <div class="col-lg-6">
+                        <form action="" method="post">
+                            <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://twitter.com/AICTE_INDIA" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/OfficialAICTE/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/explore/tags/aicte/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="helpdesk1@aicte-india.org
+                    " class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="https://www.linkedin.com/company/aicteindia/?originalSubdomain=in" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright" align-items-center>
+                &copy; Copyright <strong><span>HACS</span></strong>. All Rights Reserved
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

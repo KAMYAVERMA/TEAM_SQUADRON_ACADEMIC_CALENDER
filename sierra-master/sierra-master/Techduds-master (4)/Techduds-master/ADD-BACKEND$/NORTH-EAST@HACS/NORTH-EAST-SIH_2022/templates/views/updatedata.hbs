@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACS UPDATE FORM</title>
+    <link href="css/update_form.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="container">
+        <left><img src="css/Screenshot 2022-03-26 214919.png" alt="logo" id="image"></left>
+        <div class="title">UPDATE FORM</div><br>
+        <div class="update_form">
+            <form action="/updatedata" method="post">
+                <div class="event-details">
+                    <div class="input-box" >
+                        <span class="details" id="name">NAME OF THE EVENT</span>
+                        <br>
+                        <input type="text" placeholder="Name of the event" id="details_1" required="true" name="event_name_update" autocomplete="off">
+                    </div>
+                    
+                    <div class="input-box"> 
+                        <span class="previous-date" id="previous_date_1">PREVIOUS DATE</span><br>
+                        <input type="date" placeholder="Enter the previous date and time" id="prev" required="true" name="prev_date" autocomplete="off">
+                    </div>
+                    <div class="input-box" >
+                        <span class="new-date" id="new_date_1">NEW DATE</span><br>
+                        <input type="date" placeholder="Enter the new date and time" id="new_date" required="true" name="new_date" autocomplete="off">
+                    </div>
+                    <div class="input-box">
+                        <span class="description" id="description_1">DESCRIPTION</span><br>
+                        <input type="text" placeholder="Description of the event" id="des" required="true" name="description_update" autocomplete="off">
+                    </div>
+                    <br>
+                    <div class="region-details">
+                        <span class="region-title">REGION</span>
+                        <div class="category">
+                            <label for="">
+                                <span class="check"  id="north">NORTH</span>
+                        <input type="radio" name="options"id="region_1">
+                            </label>
+                            <label for="">
+                                
+                        <span class="check" id="south">SOUTH</span>
+                        <input type="radio" name="options"id="region_1">
+
+                            </label>
+                            <label for="">
+                                <span class="check" id="east">EAST</span>
+                        <input type="radio"name="options" id="region_1">
+                            </label>
+                            <label for="">
+                                <span class="check" id="west">WEST</span>
+                        <input type="radio" name="options"id="region_1">
+                            </label>
+                            <label for="">
+                                <span class="check" id="north-east">NORTH-EAST</span>
+                        <input type="radio" name="options"id="region_1">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit_button_update">
+                    <input type="submit" value="UPDATE DATA" style="width: 450px;"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

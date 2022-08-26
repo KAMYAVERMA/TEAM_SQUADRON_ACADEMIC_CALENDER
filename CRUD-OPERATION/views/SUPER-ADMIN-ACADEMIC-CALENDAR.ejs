@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Admin Academic Calendar</title>
+</head>
+<body>
+    <h1>CALENDAR DATES MANADATORY FOR ALL </h1>
+      <h5><% practo.forEach(function(product){  %>
+        <table border="2px">
+          
+        <tr>
+          <td>Academic Course Start Date</td>
+           
+          <td>FROM: <%= product.odd_sem_course_in %> </td>
+          <td>TO: <%= product.odd_sem_course_out %></td></tr><br><br>
+          
+          <tr>
+          <td>Academic Course Ending Date</td>
+           <td>FROM: <%= product.start_odd_end %></td>
+           <td>TO: <%= product.end_odd_end %></td></tr><br><br>
+
+           <tr>
+          <td>Last Date Of Semester Registration(Odd Semester)</td>
+           <td>FROM: <%= product.odd_sem_regis_in%> </td>
+           <td>TO: <%= product.odd_sem_regis_out %></td></tr><br><br>
+ 
+          <tr>
+          <td>Last Date of Submission of Exam Form(Odd Semester)</td>
+           <td>FROM: <%= product.odd_sem_exam_in %> </td>
+            <td>TO: <%= product.odd_sem_exam_out %></td></tr><br><br>
+
+          <tr>
+          <td>Last Date Of Submission for Sessional Marks Of Theory And Practical(Odd Semester)</td>
+          <td>FROM : <%= product.odd_sem_sessional_in %></td>
+          <td>TO: <%= product.odd_sem_sessional_out %></td></tr><br><br>
+
+          <tr>
+          <td>Semester Theory Exam Dates(Odd Semester)</td>
+          <td>FROM: <%= product.odd_sem_theory_in %></td>
+          <td>TO: <%= product.odd_sem_theory_out %></td></tr><br><br>
+
+          <tr>
+          <td>Semester Practical Exam Dates(Odd Semester)</td>
+          <td>FROM : <%= product.odd_sem_practical_in %> </td>
+          <td>TO:<%= product.odd_sem_practical_in %></td></tr><br><br><br>
+
+          <tr>
+          <td>Results Dates(Odd Semester)<td>
+          <td>FROM: <%= product.odd_sem_result_in %></td>
+          <td>TO:<%= product.odd_sem_result_out %></td></tr><br><br><br>
+
+
+          <tr>
+          <td>Last Date Of Semester Registration(Even Semester)</td>
+          <td>FROM: <%= product.even_sem_regis_in %></td>
+          <td>TO: <%= product.even_sem_regis_out %></td></tr><br><br>
+
+          <tr>
+          <td>Last Date of Submission of Exam Form(Even Semester)</td>
+          <td>FROM : <%= product.even_form_exam_in %></td>
+          <td>TO: <%= product.even_form_exam_out %></td></tr><br><br>
+
+
+          <tr>
+          <td>Last Date Of Submission for Sessional Marks Of Theory And Practical(Even Semester)</td>
+          <td>FROM: <%= product.even_sem_sessional_in %> </td>
+          <td>TO: <%= product.even_sem_sessional_out %></td></tr><br><br>
+
+
+          <tr>
+          <td>Semester Theory Exam Dates(Even Semester)</td>
+          <td>FROM : <%= product.even_sem_theory_in %></td> 
+          <td>TO: <%= product.even_sem_theory_out %></td></tr><br><br>
+
+          <tr>
+
+          <td>Semester Practical Exam Dates(Even Semester)</td>
+          <td>FROM : <%= product.even_sem_practical_in %> </td>
+          <td>TO: <%= product.even_sem_practical_out %></td></tr><br><br>
+
+          <tr>
+          <td>Results Dates(Even Semester)</td>
+          <td>FROM: <%= product.even_sem_results_in %> </td>
+          <td>TO: <%= product.even_sem_results_out %></td></tr><br><br>
+
+          
+          
+        </table>
+      <%})%></h5>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Buffer Range Form
+	</title>
+
+	<style>
+
+		body {
+			background-color: #05c46b;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>HACS BUFFER RANGE FORM</h1>
+
+	<!-- Create Form -->
+	<form id="form" action="/edit" method="post">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Academic Course Start Date</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_course_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_course_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Academic Course Ending Date</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="start_odd_end"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="end_odd_end"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Last Date Of Semester Registration(Odd Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_regis_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_regis_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Last Date of Submission of Exam Form(Odd Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_exam_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_exam_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Last Date Of Submission for Sessional Marks Of Theory And Practical(Odd Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_sessional_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_sessional_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Semester Theory Exam Dates(Odd Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_theory_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_theory_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Semester Practical Exam Dates(Odd Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_practical_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_practical_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Results Dates(Odd Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="odd_sem_result_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="odd_sem_result_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Last Date Of Semester Registration(Even Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="even_sem_regis_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="even_sem_regis_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Last Date of Submission of Exam Form(Even Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="even_form_exam_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="even_form_exam_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Last Date Of Submission for Sessional Marks Of Theory And Practical(Even Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="even_sem_sessional_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="even_sem_sessional_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>
+					Semester Theory Exam Dates(Even Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="even_sem_theory_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="even_sem_theory_out"
+				placeholder="Enter last date" />
+		</div>
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Semester Practical Exam Dates(Even Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="even_sem_practical_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="even_sem_practical_out"
+				placeholder="Enter last date" />
+		</div>
+		
+		<div class="form-control">
+			<label for="name" id="label-name">
+				<b>Results Dates(Even Semester)</b>
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="date"
+				id="start" name="even_sem_results_in"
+				placeholder="Enter initial date" />
+			<input type="date"
+				id="start" name="even_sem_results_out"
+				placeholder="Enter last date" />
+		</div>
+		
+		
+		
+
+		<!-- Multi-line Text Input Control -->
+		<input type="submit" value="submit">
+			Submit
+		</input>
+	</form>
+</body>
+
+</html>

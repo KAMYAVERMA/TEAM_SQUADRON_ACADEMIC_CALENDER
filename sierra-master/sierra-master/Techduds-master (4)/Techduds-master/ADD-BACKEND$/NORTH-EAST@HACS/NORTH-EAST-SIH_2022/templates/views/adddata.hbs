@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACS ADD DATA FORM</title>
+    <link href="css/add_form.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="container">
+        <left><img src="css/Screenshot 2022-03-26 214919.png" alt="logo" id="image"></left>
+        <div class="title">ADD DATA FORM</div><br>
+        <div class="update_form">
+            <form action="/adddata" method="post">
+                <div class="event-details">
+                    <div class="input-box" >
+                        <span class="details" id="name">EVENT NAME</span>
+                        <br>
+                        <input type="text" placeholder="Name of the event" id="details_1" required="true" name="event_name" autocomplete="off">
+                    </div>
+                    
+                    <div class="input-box"> 
+                        <span class="previous-date" id="previous_date_1">START DATE & TIME</span><br>
+                        <input type="date" placeholder="Enter the previous date and time" id="prev" required="true" name="date_time_start" autocomplete="off">
+                    </div>
+                    <div class="input-box" >
+                        <span class="new-date" id="new_date_1">END DATE & TIME</span><br>
+                        <input type="date" placeholder="Enter the new date and time" id="new_date" required="true" name="date_time_end" autocomplete="off">
+                    </div>
+                    <div class="input-box">
+                        <span class="description" id="description_1">DESCRIPTION</span><br>
+                        <input type="text" placeholder="Description of the event" id="des" required="true" name="description" autocomplete="off">
+                    </div>
+                    <br>
+                    <div class="region-details">
+                        <span class="region-title">REGION</span>
+                        <div class="category">
+                            <label for="">
+                                <span class="check"  id="north">NORTH</span>
+                        <input type="radio" name="regions"id="region_1">
+                            </label>
+                            <label for="">
+                                
+                        <span class="check" id="south">SOUTH</span>
+                        <input type="radio" name="regions"id="region_1">
+
+                            </label>
+                            <label for="">
+                                <span class="check" id="east">EAST</span>
+                        <input type="radio"name="regions" id="region_1">
+                            </label>
+                            <label for="">
+                                <span class="check" id="west">WEST</span>
+                        <input type="radio" name="regions"id="region_1">
+                            </label>
+                            <label for="">
+                                <span class="check" id="north-east">NORTH-EAST</span>
+                        <input type="radio" name="regions"id="region_1">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-box_1">
+                        <span class="erp_2" id="erp_1">ERP </span><br>
+                        <input type="text" placeholder="ERP of the region" id="erp" required="true" name="erp_add">
+                    </div>
+                    <div class="submit_button_add">
+                    <input type="submit" style="width: 550px ;" value="ADD DATA"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

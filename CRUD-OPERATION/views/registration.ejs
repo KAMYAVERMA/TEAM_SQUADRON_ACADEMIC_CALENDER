@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="css/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration for University Admin</div>
+    <div class="content">
+      <form action="/registration" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">UNIVERSITY NAME</span>
+            <input type="text" placeholder="Enter your first name" required name="university_name" autocomplete="off">
+          </div>
+          <div class="input-box">
+            <span class="details">USER NAME</span>
+            <input type="text" placeholder="Enter your last name"  name="user_name" autocomplete="off">
+          </div>
+          <div class="input-box">
+            <span class="details">EMAIL</span>
+            <input type="text" placeholder="Enter your email"  name="email" autocomplete="off">
+          </div>
+          <div class="input-box">
+            <span class="details">PASSWORD</span>
+            <input type="text" placeholder="Enter your password"  name="password" autocomplete="off">
+          </div>
+          <div class="input-box">
+            <span class="details">CONFIRM PASSWORD</span>
+            <input type="text" placeholder="Confirm your password"  name="confirmpassword" autocomplete="off">
+          </div>
+          <div class="input-box">
+            <span class="details">ADDRESS</span>
+            <input type="text" placeholder="Enter University Address"  name="address" autocomplete="off">
+          </div>
+          <div class="input-box">
+            <span class="details">STATE</span>
+            <input type="text" placeholder="Enter state"  name="state" autocomplete="off">
+          </div>
+          <select multiple name="course"
+              id="course">
+        <option>Applied Arts and Crafts</option>
+        <option>Architecture and Town Plan</option>
+        <option>Architecture and PLanning</option>
+        <option>Architecture</option>
+        <option>Planning</option>
+        <option>Design</option>
+        <option>Town Planning</option>
+        <option>Engineering and Technology</option>
+        <option>Management</option>
+        <option>MCA</option>
+        <option>Pharamacy</option>
+        <option>Hotel Management and Catering</option>
+      </select>
+      <select multiple name="levels"
+              id="levels">
+        <option>ALL</option>
+        <option>UG</option>
+        <option>PG</option>
+        <option>DIPLOMA</option>
+        
+      </select>
+        </div>
+        <div class="button">
+            <input type="submit" value="Register">
+          </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
