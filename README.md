@@ -2,41 +2,17 @@
 <!-- # SMART INDIA HACKATHON 2020 - TEAM_SQUADRON  -->
 
 <h1 align="center">
-	<img src="logo.jpg" alt="Altruist Logo" width="250"><br>
-	SMART INDIA HACKATHON 2020
+	<img src="logo.jpg" alt="Squadron Logo" width="250"><br>
+	SMART INDIA HACKATHON 2022
 
 </h1>
 <h1 align="center">Team_Squadron</h1>
 <br>
 </h1>
 <h4 align="center">We empathise to empower - realising the dream of Aatmanirbhar Bharat</h4>
-<p align="center">
-	<a href="https://covid-altruist.herokuapp.com/">
-		<img src="https://img.shields.io/badge/Tetra--Amelia-Face%20Tracking-green">
-	</a>
-	<a href="http://sign01.herokuapp.com/">
-		<img src="https://img.shields.io/badge/Text%20to%20Sign-Model-blue"
-		alt="Gitter">
-	</a>
-	<a href="http://main-altruist.surge.sh/Dimmenia.html">
-		<img src="https://img.shields.io/badge/Dementia-AI%20Chatbot-red">
-	</a>
-	<a href="https://blind-altruist.herokuapp.com/">
-		<img src="https://img.shields.io/badge/Blind-Speech%20Recognition-brightgreen">
-	</a>
-	<a href="https://video-altruist.herokuapp.com/">
-		<img src="https://img.shields.io/badge/Voice%20Assisted-Video%20Chat-orange">
-	</a>
 
-</p>
 
-<p align="center">
-	<a href="#"></a> •
-	<a href="#"> </a> •
-	<a href="#"></a> •
-	<a href="#"></a> •
-	<a href="#"></a> 
-</p>
+
 
 ## Problem Statement
 
