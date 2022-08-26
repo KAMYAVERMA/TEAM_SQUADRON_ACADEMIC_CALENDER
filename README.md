@@ -12,17 +12,15 @@
 
 ## Integration of Academic Calendar of all Indian Universities
 <br>
-<br>
 
 ## Each university is provided academic calendar to fill mandatory details in buffer and other college events.
 
 ## College Prediction System
 <br>
-<br>
 
 ## Predicts colleges based on students holistic details and preferences, helps students to gather information about the colleges which saves time and money wasted in travel
 
-[<img align="left" alt="landing_page.jpeg" width="100px"height="100px" src="landing_page.jpeg"/>]
+[<img align="left" alt="landing_page.jpeg" width="100px" height="100px" src="landing_page.jpeg" />][website]
 
 
 
