@@ -1,5 +1,5 @@
 
-<!-- # SMART INDIA HACKATHON 2020 - TEAM_SQUADRON  -->
+<!-- # SMART INDIA HACKATHON 2022 - TEAM_SQUADRON  -->
 
 <h1 align="center">
 	<img src="logo.jpg" alt="Squadron Logo" width="250"><br>
