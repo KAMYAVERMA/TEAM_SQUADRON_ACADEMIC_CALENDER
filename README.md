@@ -11,10 +11,11 @@
 <h2 align="center">HACS: Holistic Academic Calendar Solutions</h2>
 <h4 align="center">We empathise to empower - realising the dream of Aatmanirbhar Bharat</h4>
 
-![Screenshot 2023-07-28 053331](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/88aaf0dc-5f22-469f-852d-ae8866d702c0)
 
+![home](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/e32e9f99-d79d-464e-a67a-8ba902fb368c)
 
 ## Problem Statement
+
 
 **Ministry/Organization Name** - <a href="https://www.aicte-india.org/">AICTE</a>  
 
@@ -62,9 +63,9 @@ in their academic career.
 </h5>
 
 ## Screenshots
-![Screenshot 2023-07-28 054250](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/b5ffa581-acaa-47aa-8096-ad8fb77bc207)
-![Screenshot 2023-07-28 053408](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/0d019f01-45da-4c0c-9922-f18b3b677b7d)
-![Screenshot 2023-07-28 053455](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/70e31518-e44a-49f7-827b-8e340a9994b3)
+![dashboard admin](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/b3c1b462-5e57-4a46-8659-c966d758751c)
+![chatbot](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/61224e32-8f91-48c8-b786-cbd916c60e00)
+![contact](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/729f42ca-903a-4bdb-a392-45400f52997d)
 
 
 ## Solution
