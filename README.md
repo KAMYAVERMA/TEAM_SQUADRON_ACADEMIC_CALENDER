@@ -92,7 +92,24 @@ We will be creating a **Landing page** which will *distribute our audience* and 
 - An extremely simple and *easy to use* website for *easier synchronization with the brain.*                               
 
 
+## Demo
 
+[Live Demo](https://hacs-squadron.netlify.app)
+
+## Technologies Used
+
+-Frontend tech: HTML, CSS, JS, Bootstrap and React
+-Backend tech: MongoDb, Node.js
+-Model: Python, ML
+-Tools: Vs Code, Github, Git, Figma, Google colab, Canva and Jpyter Notebook
+
+## Contributions
+
+Contributions and feedback are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
 <h3 align="center">Made With :heart:, by Team Squadron</h3>
