@@ -1,6 +1,5 @@
 
 <!-- # SMART INDIA HACKATHON 2022 - TEAM_SQUADRON  -->
-
 <h1 align="center">
 	<img src="logo.jpg" alt="Squadron Logo" width="250"><br>
 	SMART INDIA HACKATHON 2022
@@ -9,9 +8,10 @@
 <h1 align="center">Team_Squadron</h1>
 <br>
 </h1>
+<h2 align="center">HACS: Holistic Academic Calendar Solutions</h2>
 <h4 align="center">We empathise to empower - realising the dream of Aatmanirbhar Bharat</h4>
 
-
+![Screenshot 2023-07-28 053331](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/88aaf0dc-5f22-469f-852d-ae8866d702c0)
 
 
 ## Problem Statement
@@ -60,20 +60,18 @@ in their academic career.
 	<img src="image1.jpeg" alt="Squadron Logo" width="450" height="250"><br>
 	<p>Prediction model integrated on HACS(Holistic Academic Calendar Solution)</p>
 </h5>
-<h5 align="center">
-	<img src="image2.jpg" alt="Squadron Logo" width="450" height="250"><br>
-	<p>HACS ADMIN</p>
-</h5>
-<h5 align="center">
-	<img src="image3.jpg" alt="Squadron Logo" width="450" height="250"><br>
-	<p>ADDITIONAL FEATURES</p>
-</h5>
+
+## Screenshots
+![Screenshot 2023-07-28 054250](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/b5ffa581-acaa-47aa-8096-ad8fb77bc207)
+![Screenshot 2023-07-28 053408](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/0d019f01-45da-4c0c-9922-f18b3b677b7d)
+![Screenshot 2023-07-28 053455](https://github.com/KAMYAVERMA/TEAM_SQUADRON_ACADEMIC_CALENDER/assets/85511676/70e31518-e44a-49f7-827b-8e340a9994b3)
+
 
 ## Solution
 
 We will be creating a **Landing page** which will *distribute our audience* and it will lead to *different sections specific to a disability*. We have identified and worked for some of the common disabilities possible in a person **to make their Web experience more accessible, smoother and easier.**
 
-### **1. Institutional Admin :
+### **1. Institutional Admin :**
 - *Option for creating a university record is available*. 
 - Real *smooth UI/UX* for the people 
 - *Speech* to Command facility for the website traversal
@@ -98,9 +96,9 @@ We will be creating a **Landing page** which will *distribute our audience* and 
 
 ## Technologies Used
 
--Frontend tech: HTML, CSS, JS, Bootstrap and React
--Backend tech: MongoDb, Node.js
--Model: Python, ML
+-Frontend tech: HTML, CSS, JS, Bootstrap and React<br>
+-Backend tech: MongoDb, Node.js<br>
+-Model: Python, ML<br>
 -Tools: Vs Code, Github, Git, Figma, Google colab, Canva and Jpyter Notebook
 
 ## Contributions
