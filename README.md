@@ -106,10 +106,6 @@ We will be creating a **Landing page** which will *distribute our audience* and 
 
 Contributions and feedback are welcome! Feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 
 <h3 align="center">Made With :heart:, by Team Squadron</h3>
 
