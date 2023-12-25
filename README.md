@@ -20,7 +20,7 @@
 **Ministry/Organization Name** - <a href="https://www.aicte-india.org/">AICTE</a>  
 
 **Problem Statement** - An integrated annual academic
-calendar for all the Indian universities
+calendar for all the Indian universities.
 
 
 ## Understanding The Problem Statement
